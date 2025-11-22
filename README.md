@@ -197,26 +197,3 @@
     }
     fetchPrices();
     setInterval(fetchPrices, 60000); // Refresh every 60 seconds
-
-    // FAQ toggle
-    document.querySelectorAll('.faq-question').forEach(q => {
-      q.addEventListener('click', () => {
-        const answer = q.nextElementSibling;
-        answer.classList.toggle('open');
-      });
-    });
-
-    // Simple newsletter subscription simulation
-    function subscribeNewsletter(event) {
-      event.preventDefault();
-      const emailInput = document.getElementById('email');
-      const status = document.getElementById('subscription-status');
-      if (emailInput.value) {
-        status.textContent = `Thank you for subscribing, ${emailInput.value}!`;
-        emailInput.value = '';
-      }
-    }
-  </script>
-</body>
-</html># Crypto.guide 
-index.html
