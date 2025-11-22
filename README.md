@@ -218,5 +218,4 @@
     }
   </script>
 </body>
-</html># Crypto.guide 
-index.html
+</html># Crypto.guide
